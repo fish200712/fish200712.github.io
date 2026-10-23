@@ -8,15 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
-<span class='anchor' id='about-me'></span>
-
 你好,我是fish(Yukun Lu)目前我正在学习高性能计算(HPC),这对我而言是一个新的挑战.
 我搭建了这个学习主页,用来记录我的学习进度,代码实验和踩坑经验.
 目前的学习目标:1.掌握基础Linux终端操作和Git版本管理
